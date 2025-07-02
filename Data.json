@@ -1,0 +1,70 @@
+{
+  "user": {
+    "profile": {
+      "name": "Emmanuel Ajibokun",
+      "username": "Manny",
+      "title": "Web Developer",
+      "bio": "I'm a Frontend Developer based in Nigeria, dedicated to continual improvement of both my professional skills and personal growth. I'm specialized in building exceptional websites and making the web accessible to everyone.",
+      "avatar": "/src/assets/profile.jpeg",
+      "resume": "/src/assets/MyResume.pdf",
+      "profileImage": "/src/assets/ver2.png",
+      "aboutImage": "/src/assets/ver2.png",
+      "bitmoji": "/src/assets/ver2.png"
+    },
+    "skills": [
+      { "name": "JavaScript", "icon": "/src/assets/js.png", "level": "Advanced" },
+      { "name": "React", "icon": "/src/assets/react.png", "level": "Advanced" },
+      { "name": "HTML5", "icon": "/src/assets/html-5.png", "level": "Advanced" },
+      { "name": "CSS3", "icon": "/src/assets/tailwind.png", "level": "Advanced" },
+      { "name": "Python", "icon": "/src/assets/python.png", "level": "Intermediate" },
+      { "name": "TypeScript", "icon": "/src/assets/TypeScript.png", "level": "Intermediate" },
+      { "name": "Next.js", "icon": "/src/assets/Next.png", "level": "Intermediate" },
+      { "name": "Photoshop", "icon": "/src/assets/photoshop.png", "level": "Beginner" }
+    ],
+    "projects": [
+      {
+        "title": "DevfolioHub",
+        "description": "A portfolio builder for developers.",
+        "image": "/src/assets/dev.png",
+        "link": "https://github.com/yourusername/devfoliohub",
+        "techStack": ["React", "Tailwind", "Vite"]
+      },
+      {
+        "title": "Votify",
+        "description": "A voting app for communities.",
+        "image": "/src/assets/votify.png",
+        "link": "https://github.com/yourusername/votify",
+        "techStack": ["React", "Node.js", "MongoDB"]
+      }
+    ],
+    "about": {
+      "summary": "I am a developer with a passion for learning and building impactful products.",
+      "interests": ["Web Development", "UI/UX", "Open Source", "Machine Learning"],
+      "education": [
+        {
+          "degree": "B.Sc. in Computer Science",
+          "institution": "University Name",
+          "year": "2023"
+        }
+      ],
+      "experience": [
+        {
+          "role": "Frontend Developer",
+          "company": "Tech Company",
+          "duration": "2023 - Present",
+          "details": "Worked on building scalable web applications."
+        }
+      ]
+    },
+    "contact": {
+      "email": "your.email@example.com",
+      "phone": "+1234567890",
+      "location": "City, Country",
+      "socials": {
+        "github": "https://github.com/yourusername",
+        "linkedin": "https://linkedin.com/in/yourusername",
+        "twitter": "https://twitter.com/yourusername"
+      }
+    }
+  }
+}
