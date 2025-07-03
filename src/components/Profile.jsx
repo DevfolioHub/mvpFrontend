@@ -1,5 +1,5 @@
 import profile from "../assets/IMG_8021.jpg"
-import { AnimatedText } from "../pages/AboutMe";
+import { AnimatedText } from "../pages/UserUI/AboutMe";
 
 const Profile = () => {
   return(

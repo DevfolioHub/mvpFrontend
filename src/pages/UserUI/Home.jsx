@@ -1,4 +1,4 @@
-import {Hero, Projects } from "../components/index.js"
+import {Hero, Projects } from "../../components/index.js"
 
 
 const Home = () => {

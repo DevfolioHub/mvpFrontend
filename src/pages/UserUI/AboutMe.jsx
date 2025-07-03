@@ -1,8 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 
-import { Profile } from "../components";
-import dev from "../assets/dev.png"
+import { Profile } from "../../components";
+import dev from "../../assets/dev.png";
+import { useUser } from "../../contexts/UserContext";
 
 import { useState, useEffect, useRef } from "react";
 import { TypeAnimation } from 'react-type-animation';
@@ -50,15 +51,17 @@ const AnimatedText = ({ text, customClassName }) => {
 };
 
 const AboutMe = () => {
+  const user = useUser();
+
   return (
     <div className="">
       <section className="flex flex-col pt-32 gap-3 px-20 sm:px-10 py-10 bg-[#E4F3FF] text-black" style={{height: "calc(100vh - 106px)"}}>
         <div className="flex items-center flex-nowrap gap-[6px]">
           <img src={dev} alt="multitasker icon" width={30} className="inline sm:w-6" />
-          <p className="inline font-medium sm:text-sm">ABOUT EMMANUEL AJIBOKUN</p>
+          <p className="inline font-medium sm:text-sm">ABOUT {user.profile.name.toUpperCase()}</p>
         </div>
         <AnimatedText text={"Frontend Engineer"} customClassName="font-bold md:text-7xl text-4xl" />
-        <p >I am a Frontend Engineer based in Akure, Nigeria</p>
+        <p >I am a {user.profile.title} based in {user.contact.location}</p>
       </section>
       
       <Profile/>
