@@ -60,7 +60,7 @@ const AboutMe = () => {
           <img src={dev} alt="multitasker icon" width={30} className="inline sm:w-6" />
           <p className="inline font-medium sm:text-sm">ABOUT {user.profile.name.toUpperCase()}</p>
         </div>
-        <AnimatedText text={"Frontend Engineer"} customClassName="font-bold md:text-7xl text-4xl" />
+        <AnimatedText text={user.profile.title} customClassName="font-bold md:text-7xl text-4xl" />
         <p >I am a {user.profile.title} based in {user.contact.location}</p>
       </section>
       

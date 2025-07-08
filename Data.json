@@ -3,7 +3,7 @@
     "name": "Emmanuel Ajibokun",
     "username": "Manny",
     "title": "Web Developer",
-    "bio": "I'm a Frontend Developer based in Nigeria, dedicated to continual improvement of both my professional skills and personal growth. I'm specialized in building exceptional websites and making the web accessible to everyone.",
+    "bio": "I am a Frontend Engineer with two years of experience, based in Lagos, Nigeria. Most of my last five years were spent in Akure for my tertiary education. My ability to grasp concepts quickly has led me to dabble in other areas of tech, such as machine learning and AI.\nOver the past years, I have taken online courses and dedicated my time to building projects that nourish my understanding of various concepts and reinforce my knowledge.\nWhen I'm not coding, you can often find me watching anime or reading the Bible, as my communion with God has become a crucial part of my life. I also have an everlasting love for YouTube content. After all, it is the platform that has helped me connect most with activities I love, from watching anime spoilers (lol) to listening to sermons from my favorite ministers, to watching self-help motivation videos, and those that help me become a better engineer.",
     "avatar": "/src/assets/profile.jpeg",
     "resume": "/src/assets/MyResume.pdf",
     "profileImage": "/src/assets/ver2.png",
@@ -29,10 +29,37 @@
       "techStack": ["React", "Tailwind", "Vite"]
     },
     {
-      "title": "Votify",
-      "description": "A voting app for communities.",
+      "title": "Sentinel",
+      "description": "This application is designed for administrators within an organization. It enables staff members to input prompts into a model, which then generates price predictions for their products based on the provided information",
       "image": "/src/assets/votify.png",
-      "link": "https://github.com/yourusername/votify",
+      "link": "https://ai.sentinelock.com/",
+      "techStack": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "CV Application",
+      "description": "This user-friendly tool simplifies the process of creating professional resumes. With a sleek and intuitive interface, users can easily input their personal details, work experience, and education.",
+      "image": "/src/assets/votify.png",
+      "link": "https://github.com/EmmanuelAjibokun/cv-application",
+      "techStack": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Rick N Morty Memo",
+      "description": "This application is a web based memory game that uses hooks to manage and utilize state while fetching and using data from an external API.",
+      "link": "https://rick-n-morty-memo.vercel.app/",
+      "techStack": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Votify",
+      "description": "A voting web app based on US election. I designed the UI for mobile view and desktop view using Figma and directed the team that implemented the design and I also contributed to the development.",
+      "image": "/src/assets/votify.png",
+      "link": "https://emmanuelajibokun.github.io/Votify/",
+      "techStack": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Etch A Sketch",
+      "description": "This application is a browser based version of something between a sketchpad and an Etch-A-Sketch. This project significantly improved my ability to manipulate the Document Object Model (DOM).",
+      "image": "/src/assets/votify.png",
+      "link": "https://emmanuelajibokun.github.io/Odin-Project-Etch-a-sketch/",
       "techStack": ["React", "Node.js", "MongoDB"]
     }
   ],
@@ -58,7 +85,7 @@
   "contact": {
     "email": "your.email@example.com",
     "phone": "+1234567890",
-    "location": "City, Country",
+    "location": "Lagos, Nigeria",
     "socials": {
       "github": "https://github.com/yourusername",
       "linkedin": "https://linkedin.com/in/yourusername",
