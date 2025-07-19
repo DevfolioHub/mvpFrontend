@@ -3,8 +3,11 @@ import { Icons } from ".";
 import worker from "../assets/worker.png";
 import ParticlesBackground from "./ParticlesBackground";
 import resume from "../assets/MyResume.pdf";
+import { useUser } from "../contexts/UserContext";
 
 const Hero = () => {
+  const user = useUser();
+
   return (
     <div className="relative">
       <ParticlesBackground />
@@ -18,14 +21,10 @@ const Hero = () => {
             <img src={worker} alt="worker icon" width={20} className="inline" />
           </div>
           <h1 className="font-bold md:text-5xl text-3xl sm:text-2xl">
-            I&apos;m Emmanuel Ajibokun
+            I&apos;m {user.profile.name}
           </h1>
-          <p>
-            I&apos;m a Frontend Developer based in Nigeria, dedicated to
-            continual improvement of both my professional skills and personal
-            growth. I&apos;m specialized in building exceptional websites and
-            making the web accessible to everyone.
-          </p>
+          <p>{user.profile.pitch}</p>
+          {/* Todo: create a component that fetched user's resume */}
           <div>
             <a href={resume} download={"Emmanuel-Ajibokun-Resume.pdf"}>
               <button>
@@ -37,6 +36,7 @@ const Hero = () => {
         </div>
         <div className="sm:mt-4">
           <div className="flex inset-0 md:w-[250px] md:h-[250px] w-[200px] h-[200px] rounded-full border-8 border-[#ffffffcf] border-opacity-65 pointer-events-none">
+            {/* Todo: stream user's profileImage */}
             <img
               src={profileImage}
               alt="manny's profile image"

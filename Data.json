@@ -8,7 +8,8 @@
     "resume": "/src/assets/MyResume.pdf",
     "profileImage": "/src/assets/ver2.png",
     "aboutImage": "/src/assets/ver2.png",
-    "bitmoji": "/src/assets/ver2.png"
+    "bitmoji": "/src/assets/ver2.png",
+    "pitch": "I'm a Frontend Developer based in Nigeria, dedicated to continual improvement of both my professional skills and personal growth. I'm specialized in building exceptional websites and making the web accessible to everyone."
   },
   "skills": [
     { "name": "JavaScript", "icon": "/src/assets/js.png", "level": "Advanced" },

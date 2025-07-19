@@ -3,13 +3,23 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useUser } from "../contexts/UserContext";
-import { ProjectCard } from './index'
+import { ProjectCard } from './index';
+import { useParams } from "react-router-dom";
 
 const Projects = () => {
 
   const user = useUser();
   const refs = useRef([]);
   const [tilts, setTilts] = useState([]);
+
+  const { username } = useParams();
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch(`/api/users/${username}/works`)
+      .then(res => res.json())
+      .then(setProjects);
+  }, [username]);
 
   useEffect(() => {
 

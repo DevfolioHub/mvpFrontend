@@ -7,6 +7,7 @@ const Profile = () => {
   return(
     <div className=" bg-white text-black">
       <section className="flex gap-16 items-stretch md:flex-row flex-col justify-center mx-auto  py-[75px] md:px-20 px-10 max-w-screen-2xl lg:max-w-[1200px]">
+        {/* Lazyload image component */}
         <div className="flex-grow md:basis-1/2 md:max-w-none md:flex-shrink max-w-80 ">
           <img src={profile} alt="profile picture" className="rounded-lg w-full h-full  object-cover" />
         </div>
